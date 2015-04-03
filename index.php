@@ -110,38 +110,56 @@
     
         
     <div class="row main-content-section"> 
-     <div class="col-sm-6"  >
+        
+        
+        
+        
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        
+      <div class="col-sm-6"  >
       <div class="row artice-title">
           <div class="col-md-6 artice-img">
               <img src="img/Car-Accident-Blog.png" class="img-responsive">
           </div>
            <div class="col-md-6">
-               <h4>发生交通事故怎么办?</h4>
+               <h4><?php the_title(); ?></h4>
              <p> 
-                 <ol>
-                    <li>如果有任何人受伤或死亡，马上拨911通知警察及救护车</li>
-                     <li>如果是轻微交通事故，双方交换资料，如姓名，地址，驾驶执照号码，保险公司名称，保单号码。</li>
-                 </ol></p>
+               <?php the_content(); ?>   
+               
+             </p>
                <p>  <a class="btn btn-success btn-xs" href="single-1.html">更多内容</a></p>
               
           </div>
           
       </div>
-     </div>
-     <div class="col-sm-6">
-       <div class="row artice-title">
+     </div>        
+    
+	<?php endwhile; else : ?>
+        
+        
+         <div class="col-sm-6"  >
+      <div class="row artice-title">
           <div class="col-md-6 artice-img">
-              <img src="img/wpid-woman-accident-car.png" class="img-responsive">
+              <img src="img/Car-Accident-Blog.png" class="img-responsive">
           </div>
            <div class="col-md-6">
-                <h4>报案中心Collision Reporting Centres</h4>
-             <p><strong>Non-Emergency Line 416-808-2222</strong><br></p>
-             <p>如交通事故發生在多倫多地區 (詳情參閱: http://www.accsupport.com/)</p>
-               <p><a class="btn btn-success btn-xs" href="single-2.html">更多内容</a></p>
-             
+               <h4><?php _e( 'Sorry, no results found.', 'treehouse-portfolio' ); ?></h4>
+             <p> 
+               <?php _e( 'Sorry, no results found.', 'treehouse-portfolio' ); ?>
+               
+             </p>
+              
           </div>
-      </div> 
-    </div>
+          
+      </div>
+     </div>        
+
+	
+	<?php endif; ?>
+        
+        
+     
+ 
         
     </div>     
         
