@@ -67,10 +67,10 @@
       </footer>
         </div>
         </div>
-        
+       <!-- <script src="http://code.jquery.com/jquery.js"></script>-->
         
     <!-- End footer -->
-    
+    <?php wp_footer(); ?>
 
     <!--body end -->          
     </body>
