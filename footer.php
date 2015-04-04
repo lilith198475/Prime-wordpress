@@ -50,8 +50,8 @@
            
          <div class="col-sm-6 col-sm-push-6">
               <div class="row">
-               <div class="col-sm-4 col-xs-5"><a href="http://www.ibao.org/" target="_blank"><img class="img-responsive" src="img/ibao.png"></a></div>
-               <div class="col-sm-5 col-xs-7" style="padding-top:10px;"><a href="http://www.ribo.com/" target="_blank"><img class="img-responsive" src="img/ribo.png"></a></div>  
+               <div class="col-sm-4 col-xs-5"><a href="http://www.ibao.org/" target="_blank"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/ibao.png"></a></div>
+               <div class="col-sm-5 col-xs-7" style="padding-top:10px;"><a href="http://www.ribo.com/" target="_blank"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/ribo.png"></a></div>  
                <div class="col-sm-3 hidden-xs"></div>          
               </div>          
           </div>  

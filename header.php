@@ -23,11 +23,11 @@
                    <div class="row">        
                      
                      <div class="col-xs-3  hidden-xs">  
-                     <a href="index.html"><img src="img/main_logo.png" class="img-responsive main-logo"></a>     
+                     <a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/img/main_logo.png" class="img-responsive main-logo"></a>     
                      </div>
                        
                      <div class="middle-logo">                         
-                        <img src="img/middlelogo.png" >                      
+                        <img src="<?php bloginfo('template_directory'); ?>/img/middlelogo.png" >                      
                      </div>     
                     
                     <div class="col-xs-3">   

@@ -115,7 +115,7 @@ body {
 }
 
 .navbar-default .navbar-nav li{
-    background: url('../img/seperator.png') no-repeat right top;
+    background: url('img/seperator.png') no-repeat right top;
     padding-right: 5px;
 }
 
@@ -160,7 +160,7 @@ body {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: url('../img/freequote.png') no-repeat;
+	background: url('img/freequote.png') no-repeat;
 	background-size: 100%;
 
 }
@@ -216,7 +216,7 @@ body {
  margin:auto;
  width: 85%;
  height: 30px;    
-background-image: url("../img/temp/triange-bg.png");   
+background-image: url("img/temp/triange-bg.png");   
  background-position: 25% 75%;
  background-size:100% 100%;  
  opacity: 0.9;
@@ -363,6 +363,13 @@ background-image: url("../img/temp/triange-bg.png");
     
 }
 
+.main-content-section strong{
+    
+ font-weight: 600;    
+ color: #652d90;
+    
+}
+
 .main-content-section h3{
     
  margin-top: 5px;    
@@ -468,7 +475,7 @@ padding-bottom:10px;
 }
 
 .our-feature{
-  background:url("../img/feature-bg.png") repeat-x; 
+  background:url("img/feature-bg.png") repeat-x; 
   padding: 5px 35px;
   margin-top: 40px;    
 }
@@ -498,7 +505,7 @@ address p a:hover{
 ================================= */
   .footer-container{
   width: 100%;
-  background:url("../img/bottomlayer.png") repeat-x;   
+  background:url("img/bottomlayer.png") repeat-x;   
     
 }
 

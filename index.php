@@ -6,18 +6,18 @@
         <div class="container">
             
           <ul class="rslides">
-                <li><img class="testwill" src="img/temp/homeslider1.jpg" width="1000" height="493" alt=""></li>
-                <li><img src="img/temp/homeslider2.jpg" width="1000" height="493" alt=""></li>
-                <li><img src="img/temp/homeslider3.jpg" width="1000" height="494" alt=""></li>
+                <li><img class="testwill" src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider1.jpg" width="1000" height="493" alt=""></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider2.jpg" width="1000" height="493" alt=""></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider3.jpg" width="1000" height="494" alt=""></li>
           </ul>
             <div class="container" id="triangle-container" >
                <div id="triangle-content">
                     <div id="first">
-                        <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><img src="img/temp/testauto.png"  class="img-responsive"></a> 
+                        <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><img src="<?php bloginfo('template_directory'); ?>/img/temp/testauto.png"  class="img-responsive"></a> 
                         <div class="triangle-auto"><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><h4>车险</h4></a></div>
                     </div>
                     <div id="second-one">
-                        <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><img src="img/temp/teshome.png"  class="img-responsive"></a>
+                        <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><img src="<?php bloginfo('template_directory'); ?>/img/temp/teshome.png"  class="img-responsive"></a>
                         <div class="triangle-auto"> <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><h4>房屋险</h4></a></div>
                     </div>
                     <div id="second-two">
@@ -42,7 +42,7 @@
                      </div>    
                     </div>
                     <div id="second-three">
-                        <a href="https://shop.travelunderwriters.com/store/BTE546"><img src="img/temp/testtravel.png"  class="img-responsive"> </a>
+                        <a href="https://shop.travelunderwriters.com/store/BTE546"><img src="<?php bloginfo('template_directory'); ?>/img/temp/testtravel.png"  class="img-responsive"> </a>
                         <div class="triangle-auto"><a href="https://shop.travelunderwriters.com/store/BTE546"><h4>旅游险</h4></a></div>
                    </div>
               </div>
@@ -87,7 +87,7 @@
      <div class="col-xs-6">
          <div class="row">
              <div class="col-sm-3 ">  
-                <a href="https://portal.csr24.ca/?ak=7705511"><img src="img/cr24-logo.png" class="img-responsive"></a>
+                <a href="https://portal.csr24.ca/?ak=7705511"><img src="<?php bloginfo('template_directory'); ?>/img/cr24-logo.png" class="img-responsive"></a>
              </div>
              <div class="col-sm-5">
              <h4>CR24 <br> 24小时便利保险询价 </h4>
@@ -98,7 +98,7 @@
      <div class="col-xs-6">
         <div class="row">
             <div class="col-sm-3">   
-                <a href="#"><img  src="img/news-lgo.png" class="img-responsive"></a>
+                <a href="#"><img  src="<?php bloginfo('template_directory'); ?>/img/news-lgo.png" class="img-responsive"></a>
             </div>   
             <div class="col-sm-5">
             <h4>最新保险新闻</h4>
@@ -119,7 +119,7 @@
       <div class="col-sm-6"  >
       <div class="row artice-title">
           <div class="col-md-6 artice-img">
-              <img src="img/Car-Accident-Blog.png" class="img-responsive">
+              <img src="<?php bloginfo('template_directory'); ?>/img/Car-Accident-Blog.png" class="img-responsive">
           </div>
            <div class="col-md-6">
                <h4><?php the_title(); ?></h4>
@@ -140,7 +140,7 @@
          <div class="col-sm-6"  >
       <div class="row artice-title">
           <div class="col-md-6 artice-img">
-              <img src="img/Car-Accident-Blog.png" class="img-responsive">
+              <img src="<?php bloginfo('template_directory'); ?>/img/Car-Accident-Blog.png" class="img-responsive">
           </div>
            <div class="col-md-6">
                <h4><?php _e( 'Sorry, no results found.', 'treehouse-portfolio' ); ?></h4>
