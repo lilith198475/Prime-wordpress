@@ -64,17 +64,32 @@
     <!-- Bottom main navigator starter -->          
         <div class="container bootom">
           <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-middle">
-              <li class="active"><a href="index.html">首页</a></li>
-              <li ><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">汽车保险</a></li>    
-              <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">房屋保险</a></li>
-              <li><a href="https://shop.travelunderwriters.com/store/BTE546">旅游保险</a></li> 
-               <li><a href="about.html">关于 40</a></li>
-                <li ><a href="service.html">我们的服务</a></li>
-              <li ><a href="partner.html">合作伙伴</a></li>
+           
+             <?php 
 
-              <li><a href="claim.html">事故申报</a></li>
-              <li><a href="contact.html">联系我们</a></li>
+     $defaults = array(
+	'theme_location'  => 'primary-menu',
+	'menu'            => '',
+	'container'       => false,
+	'container_class' => '',
+	'container_id'    => '',
+	'menu_class'      => 'nav navbar-nav navbar-middle',
+	'menu_id'         => '',
+	'echo'            => true,
+	'fallback_cb'     => 'wp_page_menu',
+	'before'          => '',
+	'after'           => '',
+	'link_before'     => '',
+	'link_after'      => '',
+	'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+	'depth'           => 0,
+	'walker'          => ''
+);
+
+
+      wp_nav_menu( $defaults );
+
+    ?>
             
             </ul>    
          </div>         

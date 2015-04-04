@@ -1,5 +1,33 @@
 <?php
 
+add_theme_support( 'menus' );
+
+function register_theme_menus() {
+
+	register_nav_menus(
+		array(
+			'primary-menu' 	=> __( 'Main Menu', 'Prime40' )			
+		)
+	);
+
+}
+
+
+
+add_action( 'init', 'register_theme_menus' );
+
+
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if( in_array('current-menu-item', $classes) ){
+             $classes[] = 'active ';
+     }
+     return $classes;
+}
+
+
+
 function prime_theme_styles() {
 
 	wp_enqueue_style( 'responsiveslides_css', get_template_directory_uri() . '/css/responsiveslides.css' );
