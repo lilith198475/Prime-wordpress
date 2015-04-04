@@ -119,7 +119,14 @@
       <div class="col-sm-6"  >
       <div class="row artice-title">
           <div class="col-md-6 artice-img">
-              <img src="<?php bloginfo('template_directory'); ?>/img/Car-Accident-Blog.png" class="img-responsive">
+            <?php 
+              $default_attr = array(
+	           
+	           'class' => "img-responsive",
+	           'alt'   => trim( strip_tags( get_the_title()) ),
+              );?>  
+              
+             <?php the_post_thumbnail('large', $default_attr); ?>
           </div>
            <div class="col-md-6">
                <h4><?php the_title(); ?></h4>

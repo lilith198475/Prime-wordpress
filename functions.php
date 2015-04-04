@@ -1,6 +1,9 @@
 <?php
 
 add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
+
+
 
 function register_theme_menus() {
 
@@ -11,6 +14,7 @@ function register_theme_menus() {
 	);
 
 }
+
 
 
 
@@ -25,6 +29,7 @@ function special_nav_class($classes, $item){
      }
      return $classes;
 }
+
 
 
 
