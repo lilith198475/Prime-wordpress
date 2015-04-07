@@ -134,7 +134,7 @@
                    <?php echo mb_substr(get_the_content(),0,200,'utf-8'); ?> 
                
              </p>
-               <p>  <a class="btn btn-success btn-xs" href="single-1.html">更多内容</a></p>
+               <p>  <a class="btn btn-success btn-xs" href="<?php the_permalink() ?>">更多内容</a></p>
               
           </div>
           
