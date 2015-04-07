@@ -53,4 +53,5 @@ function prime_theme_js() {
 add_action( 'wp_enqueue_scripts', 'prime_theme_js' );
 
 
+
 ?>

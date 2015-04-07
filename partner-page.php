@@ -5,9 +5,6 @@
 ?>
 
 <?php get_header(); ?>
-
-
-
   <div class="container">
                 <div class="row main-content-section">
                     
@@ -27,14 +24,10 @@
                         );
                         $query = new WP_Query( $args );
                     ?>     
-                   
-                     
-                    
+                                       
 <!-- One row of partner logo -->
                         
-                <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>        
-                        
-                        
+                <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>                                
                 <?php 
                 $thumbnail_attr = array(
 	                   'class' => "img-responsive",
@@ -53,7 +46,7 @@
                     }   
                     echo "<div class='col-xs-3'>\n";
                     echo "<div class='row'>\n";
-                    echo "<a href='"; the_field('company_website'); echo "'>";  the_post_thumbnail('large', $thumbnail_attr); echo "</a>\n";
+                    echo "<a href='"; the_field('company_website'); echo "' target='_blank'>";  the_post_thumbnail('large', $thumbnail_attr); echo "</a>\n";
                    echo "</div>\n";
                    echo "</div>\n";
                    echo "<div class='col-sm-1'></div>\n";
@@ -65,19 +58,16 @@
                       echo  "</div>\n";
                       echo  "<hr>\n";  
                                  
-                                $post_counter=0;
-                      
-                  }
-                      
-                       
-                   
-                
+                                $post_counter=0;              
+                  }                        
 ?>
+                          
+               	<?php endwhile; else : ?>
+  	
+  	             <p>Content not found, please contact administrator</p>
+  	
+  	             <?php endif; ?>
                         
-                        
-                        
-                        
-                <?php endwhile; endif;?> 
                 <?php        
                    if($post_counter !== $posts_per_row)
                   {
@@ -89,24 +79,9 @@
                     </div>    
                         
     <!-- One row of partner logo -->                     
-                      
-                    
-                    <div class="col-sm-1">
-                        
-                    </div>
-                        
-                        
-                   <?php include (TEMPLATEPATH . '/side.php'); ?>
-                    
-                
-                </div>
-         
-        
+                    <div class="col-sm-1">                  
+                    </div>   
+                   <?php include (TEMPLATEPATH . '/side.php'); ?>   
+                </div>          
             </div>    
-            
-
-
-
-
-
 <?php get_footer(); ?>
