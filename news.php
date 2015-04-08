@@ -1,6 +1,6 @@
 <?php 
 /* 
-  Template Name: emergency Page
+  Template Name: news Page
 */
 ?>
 
@@ -15,19 +15,19 @@
                             </div>
                         
                         <div class="row">
-                                <div class="col-sm-1 hidden-xs">
+                            <div class="col-sm-1 hidden-xs">
                                   </div>
                                   <div class="col-sm-4 col-xs-6">
                                      <div class="row">
-                                         <h4>保险公司</h4>
+                                         <h4>Prime 40 最新保险新闻</h4>
                                       </div>  
                                       
                                   </div>
                                   <div class="col-sm-2 hidden-xs">
                                   </div>
-                                  <div class="col-sm-5 col-xs-6" >
+                                  <div class="col-sm-2 col-xs-6" >
                                       <div class="row">
-                                         <h4>紧急联系电话</h4>
+                                         
                                       </div>  
                                       
                                  </div>           
@@ -37,11 +37,11 @@
     <!-- Emergency post begin -->                    
                         
                 <?php
-                        $posts_per_page = 12;
+                        $posts_per_page = 8;
                         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
                         $args = array(
-                            'post_type' => 'emergency',
+                            'post_type' => 'post',
                             'paged' => $paged,
                             'orderby' => 'date',
                             'order' =>'ASC',
@@ -56,24 +56,23 @@
                     );       
                 ?>     
                         
-                          <div class="row news">
-                                <div class="col-sm-1 hidden-xs">
-                                  </div>
+                              <div class="row news">
+                                
                                   <div class="col-sm-4 col-xs-6">
                                       
-                                      <?php echo "<a href='"; the_field('weblink'); echo "' target='_blank'>";  the_post_thumbnail('large', $thumbnail_attr); echo "</a>\n"; ?>
+                                      <?php echo "<a href='"; the_permalink(); echo "' target='_blank'>";  the_post_thumbnail('large', $thumbnail_attr); echo "</a>\n"; ?>
                                   </div>
                                   <div class="col-sm-2 hidden-xs">
                                   </div>
                                   <div class="col-sm-5 col-xs-6" >
                                       <div class="row">
                                               
-                                        <?php echo "<a href='"; the_field('weblink'); echo "' target='_blank'>"; the_field('website'); echo "</a>\n"; ?>            
+                                      <h4><?php echo "<a href='"; the_permalink(); echo "' target='_blank'>"; the_title(); echo "</a>\n"; ?></h4>           
                                        
                                          
                                       </div>  
                                       <div class="row">
-                                        <?php the_field('phonenumber') ?>            
+                                        <p><?php echo mb_substr(get_the_content(),0,120,'utf-8'); ?></p>            
                                       </div>
                                  </div>           
                                   

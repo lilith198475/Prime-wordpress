@@ -14,11 +14,11 @@
                <div id="triangle-content">
                     <div id="first">
                         <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><img src="<?php bloginfo('template_directory'); ?>/img/temp/testauto.png"  class="img-responsive"></a> 
-                        <div class="triangle-auto"><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><h4>车险</h4></a></div>
+                        <div class="triangle-auto"><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN"><h4>车保险</h4></a></div>
                     </div>
                     <div id="second-one">
                         <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><img src="<?php bloginfo('template_directory'); ?>/img/temp/teshome.png"  class="img-responsive"></a>
-                        <div class="triangle-auto"> <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><h4>房屋险</h4></a></div>
+                        <div class="triangle-auto"> <a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN"><h4>房屋保险</h4></a></div>
                     </div>
                     <div id="second-two">
                      <div id="insurance-row" class="row hidden-xs">
@@ -28,9 +28,9 @@
 
                              <select class="form-control" onchange="javascript:location.href = this.value;">
                                  <option selected value="#">选择保险类型</option>
-                                 <option value="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">汽車</option>
-                                 <option value="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">房屋</option>
-                                 <option value="https://shop.travelunderwriters.com/store/BTE546">旅游</option>
+                                 <option value="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">汽車保险</option>
+                                 <option value="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">房屋保险</option>
+                                 <option value="https://shop.travelunderwriters.com/store/BTE546">旅游保险</option>
                                 </select>
                              </div>
                          </form>
@@ -43,7 +43,7 @@
                     </div>
                     <div id="second-three">
                         <a href="https://shop.travelunderwriters.com/store/BTE546"><img src="<?php bloginfo('template_directory'); ?>/img/temp/testtravel.png"  class="img-responsive"> </a>
-                        <div class="triangle-auto"><a href="https://shop.travelunderwriters.com/store/BTE546"><h4>旅游险</h4></a></div>
+                        <div class="triangle-auto"><a href="https://shop.travelunderwriters.com/store/BTE546"><h4>旅游保险</h4></a></div>
                    </div>
               </div>
              </div>  
@@ -72,13 +72,13 @@
             <h4>点击方便，保险新概念</h4>
             <p>一站式网上自助估价，能让你更轻松知道自己现时的保费是否合理。「算一算，真划算」。
 我们的网站更可以网购旅游保险。在任何时候，任何地点，只要你还在安省尚未启程，便可点击旅游险转到保险公司的网站安心购买。保单马上电邮到阁下电子邮箱。方便快捷，简单省时。
- <a class="btn btn-success btn-sm " href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">查询车险</a></p>
+ <a class="btn btn-success btn-sm " href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">查询车保险</a></p>
            
         </div>   
         <div class="col-sm-4">
             <h4>传统服务，以三语与你直接沟通</h4>
-            <p>纵使这是个网上的年代，日常生活也是和电脑交流；百科迪保险仍为你提供专业的保险意见和服务，协助你解答保险疑虑，不论在投保或理赔过程上我们也乐意为你服务。</p>
-            <a class="btn btn-success btn-sm " href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">查询房屋险</a>
+            <p>纵使这是个网上的年代，日常生活也是和电脑交流；百科迪保险仍为你提供专业的保险意见和服务，协助你解答保险疑虑，不论在投保或理赔过程上我们也乐意为你服务。
+            <a class="btn btn-success btn-sm " href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">查询房屋保险</a></p>
         </div>   
           
           
@@ -87,10 +87,10 @@
      <div class="col-xs-6">
          <div class="row">
              <div class="col-sm-3 ">  
-                <a href="https://portal.csr24.ca/?ak=7705511"><img src="<?php bloginfo('template_directory'); ?>/img/cr24-logo.png" class="img-responsive"></a>
+                <a href="https://portal.csr24.ca/?ak=7705511" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/cr24-logo.png" class="img-responsive"></a>
              </div>
              <div class="col-sm-5">
-             <h4>CR24 <br> 24小时便利保险询价 </h4>
+             <a href="https://portal.csr24.ca/?ak=7705511"  target="_blank"><h4>CR24 <br> 24小时便利保险询价 </h4></a>
              </div>
          </div>     
               
@@ -98,10 +98,10 @@
      <div class="col-xs-6">
         <div class="row">
             <div class="col-sm-3">   
-                <a href="#"><img  src="<?php bloginfo('template_directory'); ?>/img/news-lgo.png" class="img-responsive"></a>
+                <a href="http://localhost/prime40/?p=95"><img  src="<?php bloginfo('template_directory'); ?>/img/news-lgo.png" class="img-responsive"></a>
             </div>   
             <div class="col-sm-5">
-            <h4>最新保险新闻</h4>
+           <a href="http://localhost/prime40/?p=95"  target="_blank"> <h4>最新保险新闻</h4></a>
             </div>
         </div>
         </div>
@@ -112,9 +112,20 @@
     <div class="row main-content-section"> 
         
         
-        
-        
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <?php
+                        $posts_per_page = 2;
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
+                        $args = array(
+                            'post_type' => 'post',
+                            'paged' => $paged,
+                            'orderby' => 'date',
+                            'order' =>'DESC',
+                            'posts_per_page' => $posts_per_page,
+                        );
+                        $query = new WP_Query( $args );
+                    ?>    
+                <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>   
         
       <div class="col-sm-6"  >
       <div class="row artice-title">

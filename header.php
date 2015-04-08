@@ -42,7 +42,7 @@
                     <!-- First row Part starter -->  
                   <div class="pull-right rightnav hidden-xs">
                         <div class="first-layer"><a class="quote-logo pull-left" href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">Free quote</a>
-                        <a class="quote-Number pull-right" href="tel:1-844-774-6340" >1(844)774-6430</a></div>
+                        <a class="quote-Number pull-right" href="tel:1-844-774-6340" >1(844)774-6340</a></div>
                         <div class="second-layer pull-right"><a class="btn btn-success btn-sm " href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">快速询价</a></div>
                  
                         <div class="last-layer pull-right">
