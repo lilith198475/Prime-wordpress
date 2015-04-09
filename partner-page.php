@@ -19,6 +19,7 @@
                         $args = array(
                             'post_type' => 'partner',
                             'paged' => $paged,
+                            'posts_per_page'=> $posts_per_page,
                             'orderby' => 'date',
                             'order' =>'ASC',
                         );
@@ -67,7 +68,7 @@
   	             <p>Content not found, please contact administrator</p>
   	
   	             <?php endif; ?>
-                        
+                  <?php wp_reset_postdata();?>            
                 <?php        
                    if($post_counter !== $posts_per_row)
                   {

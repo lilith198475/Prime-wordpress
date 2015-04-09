@@ -44,6 +44,7 @@
                             'post_type' => 'emergency',
                             'paged' => $paged,
                             'orderby' => 'date',
+                            'posts_per_page'=> $posts_per_page,
                             'order' =>'ASC',
                         );
                         $query = new WP_Query( $args );
@@ -93,7 +94,7 @@
   	
   	            <?php endif; ?>            
                         
-                        
+                  <?php wp_reset_postdata();?>       
                         
 
 

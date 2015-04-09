@@ -10,9 +10,11 @@
         <div class="container">
             
           <ul class="rslides">
-                <li><img class="testwill" src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider1.jpg" width="1000" height="493" alt=""></li>
+                <li><img  src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider1.jpg" width="1000" height="493" alt=""></li>
                 <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider2.jpg" width="1000" height="493" alt=""></li>
                 <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider3.jpg" width="1000" height="494" alt=""></li>
+              <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider4.jpg" width="1000" height="493" alt=""></li>
+                <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider5.jpg" width="1000" height="494" alt=""></li>
           </ul>
 
        </div>

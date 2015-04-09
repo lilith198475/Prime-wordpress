@@ -16,7 +16,7 @@
 									<div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> 留言成功发送 !</strong></div>	  
     								<div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> 错误！ 请检查所有的输入框</strong></div>
   							</div>
-  						<form role="form" action="" method="post" >
+  						<form role="form" method="post" action="http://www2.prime40.ca/email-send.php" >
     					  	<div class="col-lg-6">
       						<div class="form-group">
         						<label for="InputName">您的姓名</label>
@@ -26,7 +26,7 @@
                            		</div>
       					   </div>
       					   <div class="form-group">
-        						<label for="InputEmail">您的 Email</label>
+        						<label for="InputEmail">您的电邮</label>
         						<div class="input-group">
          					    	<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
@@ -64,7 +64,7 @@
                                     <p class="lead"><?echo "Information not found, please conatct Administrator"?></p>
   	
   	                             <?php endif; ?>    
-    
+     <?php wp_reset_postdata();?>
     </address>
   </div>
  	

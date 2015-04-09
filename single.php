@@ -1,25 +1,5 @@
 <?php get_header(); ?>
 
-
-<div class="container">
-        
-          <!-- Slider Begin -->
-       <div id="slider">      
-        <div class="container">
-            
-          <ul class="rslides">
-                <li><img class="testwill" src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider1.jpg" width="1000" height="493" alt=""></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider2.jpg" width="1000" height="493" alt=""></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/img/temp/homeslider3.jpg" width="1000" height="494" alt=""></li>
-          </ul>
-
-       </div>
-      
-            
-        </div> 
-         
-       </div>  
-
  <div class="container">
                 <div class="row main-content-section">
                     
@@ -37,6 +17,22 @@
                         
                         
                         </div>
+                        
+     
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-2">   
+                                        <a href="http://www2.prime40.ca/?p=86"><img  src="<?php bloginfo('template_directory'); ?>/img/news-lgo.png" class="img-responsive"></a>
+                                    </div>   
+                                    <div class="col-xs-9">
+                                    
+                                    	<div class="row"><div style="height:10px"></div></div>
+                                    	<div class="row">
+                                   			<a href="http://www2.prime40.ca/?p=86"><h4>查阅更多新闻</h4></a>
+                                    	</div>
+                                    </div>
+                                </div>
+                               
+                     
                         
                           
                      <!--   <div class="row side-page-text2">
@@ -68,7 +64,10 @@
                             </div>    
                             
                         </div>
-
+                        
+                        
+                        
+                       
                      </div>  
                     
                     
@@ -79,8 +78,8 @@
                     <div class="col-sm-1">
                         
                     </div>    
-        
-                    <div class="col-sm-1"></div>   
+  
+                     
                    <?php include (TEMPLATEPATH . '/side.php'); ?>   
                 </div>          
             </div>   
