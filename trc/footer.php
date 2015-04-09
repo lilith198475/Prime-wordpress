@@ -58,7 +58,7 @@
            
           <div class="col-sm-6 copyright-text col-sm-pull-6">
              <h5>Copyright @ Prime40 <?php echo date('Y'); ?> All right reserved </h5>  
-              <p>Prime40 Insurance 0/b BTI DIRECT INSURANCE INC.</p>
+              <p>Prime40 Insurance 0/B BTI DIRECT INSURANCE INC.</p>
           </div>
            
            

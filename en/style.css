@@ -1,0 +1,770 @@
+
+/*
+Theme Name: Prime 40 Content Management Sytstem
+Author: Obsidian Digital Inc
+Author URI: http://elephantwork.ca
+Description: A post modern, Clean, Multi-language, content management theme designed in WordPress.
+Version: 1.0
+License: P
+License URI: http://elephantwork.ca
+Tags: Green, white, Purple, fluid-layout, responsive-layout, custom-menu, featured-images
+ 
+Obsidian Digital Inc provide you the most professional website products.
+
+*/
+
+ a:hover{
+    
+ text-decoration: none;   
+}
+
+
+
+body {
+	padding-top: 140px;
+    font:14px/1.5 Tahoma,Arial,"\5b8b\4f53",sans-serif;
+    font-family: Arial, Tahoma, Helvetica, STXihei,SimSun, "宋体", "华文细黑", "Microsoft YaHei", "微软雅黑",  Heiti, "黑体", sans-serif;
+}
+
+ .btn-success{
+ background-color: #97c638;
+ border-color: #95c437;   
+ font-size: 1.0em;
+}
+
+.btn-success:hover{
+ background-color: #87b132;
+ border-color: #95c437;
+
+}
+
+
+/* Typography
+================================= */
+
+/* Logos & Icons
+================================= */
+
+.main-logo {
+	max-width: 180px;
+	
+
+}
+
+.middle-logo {
+ position: relative;    
+ width:33.2%;
+ margin-left:8.2%;
+ float: left;
+ min-height: 1px;
+ padding-left:15px;
+ padding-right: 15px;    
+  margin-top: 20px;       
+}
+
+.middle-logo img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Nav Bar Css setting
+================================= */
+.navbar .navbar-nav .active a {
+    /*background-color:#5f2a87;*/
+    background-color: #7cc90b;
+    color: #eee;
+    
+}
+
+.navbar .navbar-nav .active a:focus{
+      background-color: #7cc90b;
+    color: #eee;
+}
+
+
+.navbar-default .navbar-nav li a:focus{
+    
+    color: #eee;
+}
+
+
+
+
+.navbar .navbar-nav .active a:hover {
+ background-color: #7cc90b;
+    color:#fff;
+    
+}
+.navbar{  
+    background-color:#652d90;  
+}
+
+.navbar-default .navbar-nav li a{
+  color: #ddd; 
+  font-size: 1.0em;
+  font-weight: bold;
+    
+}
+
+
+.navbar-default .navbar-nav li:nth-child(n+5) a{
+     font-size: 0.9em;
+
+}
+
+.navbar-default .navbar-nav li{
+    margin-left: 5px;
+}
+
+.navbar-default .navbar-nav li{
+    background: url('img/seperator.png') no-repeat right top;
+    padding-right: 0px;
+}
+
+
+
+.navbar-default .navbar-nav li a:hover{
+  color: #fff; 
+  font-weight: bold;
+    
+}
+
+.collapse .navbar-collapse{
+ height: 40px;   
+}
+
+.navbar-toggle{
+    margin-top: 30px;
+    background-color:#652d90; 
+    
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #8dc53e;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+ background-color: #fff;   
+}
+
+
+/* Right Nav Css Setting
+================================= */
+.rightnav {
+    width: 160px;
+}
+
+
+.quote-logo {
+	width: 40px;
+	height: 40px;
+	margin-top: 8px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('img/freequote.png') no-repeat;
+	background-size: 100%;
+
+}
+
+.quote-Number{
+    font-size: 1.1em;
+    color: #97c638;
+    
+    margin-top: 12px;
+}
+
+.second-layer{
+ clear: both;
+}
+
+
+
+.language-nav{
+    margin-top: 5px;
+    padding: 0;
+}
+.last-layer{
+ margin-bottom: 5px;   
+}
+
+.language-nav::before{
+    clear: both;
+}
+
+.language-nav li{
+  float: left;
+  margin-right: 5px;
+  list-style: none;
+  font-size: 1.0em;
+}
+
+.language-nav li:last-child {
+    margin-right: 0px;
+}
+
+.language-nav li a{
+   color: #666;
+}
+/* slider
+================================= */
+#triangle-container{
+ width:100%;
+ margin-top: -16.45%;        
+}
+
+
+#triangle-content{
+ margin:auto;
+ width: 85%;
+ height: 30px;    
+background-image: url("img/temp/triange-bg.png");   
+ background-position: 25% 75%;
+ background-size:100% 100%;  
+ opacity: 0.9;
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 
+}
+
+.no-slider{
+ background-color: #eee;   
+}
+
+#triangle-content a:hover{
+    
+ text-decoration: none;   
+}
+
+
+#first{
+    width: 100%;
+    height: 50%;
+   /* background-color: red;*/
+    float: left;
+}
+
+
+#first .triangle-auto{
+    width: 12%;
+    height: 3%;
+    margin: auto; 
+    text-align: center;
+}
+.triangle-auto h4{
+    color: white;
+    margin-top: 5px;
+}
+
+#first img{
+    margin: auto;
+    margin-top: 4%;
+    width: 11%;
+    height: auto;    
+}
+
+#second-one{
+     width: 35%;
+    height: 50%;
+    float: left;
+}
+
+#second-one .triangle-auto{
+    width: 100%;
+    height: 3%;
+    padding-left: 40%;
+    text-align: center;
+}
+
+
+
+#second-one img{
+     width: 31.42%;
+    margin-top: 8%;
+    margin-left: 55%;
+   
+    height: auto;  
+}
+
+#second-two{
+    width: 30%;
+    height: 50%;
+    float: left;
+}
+
+
+#second-three{
+     width: 35%;
+    height: 50%;
+    float: right;
+}
+
+#second-three .triangle-auto{
+    width: 59%;
+    height: 3%;
+    text-align: center;
+}
+
+#second-three img{
+     width: 31.42%;
+     margin-top: 8%;
+    margin-left: 12%;
+    
+}
+
+#insurance-row{
+ margin-top: 5%;    
+}
+
+#insurance-row .col-sm-7{
+ padding-right: 0;    
+}
+
+#text-row{
+  width: 70%;
+  margin-left: 25%;
+  margin-top: 10px;    
+}
+
+#text-row span{
+  color: white;
+   
+    font-size: 1.1em;
+}
+
+#text-row h5{
+  font-size:1.1em;
+  margin-top: 0;
+     
+}
+#text-row h5 a{
+    
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* main-content-section
+================================= */
+
+.main-content-section{
+   width: 99%;
+   margin-left:4%;
+   padding-top:10px  
+}
+
+.main-content-section p{
+    
+    font-size: 1.2em;
+    line-height: 1.6em;
+    }
+
+.main-content-section h4{
+    
+ font-weight: 600;    
+ color: #652d90;
+    
+}
+
+
+.main-content-section .news p{
+    
+    font-size: 1.1em;
+    line-height: 1.4em;
+    }
+
+.main-content-section .news h4{
+    font-size: 1.1em;
+    
+ font-weight: 600;    
+ color: #652d90;
+    
+}
+
+.main-content-section strong{
+    
+ font-weight: 600;    
+ color: #652d90;
+    
+}
+
+.main-content-section h3{
+    
+ margin-top: 5px;    
+ font-weight: 600;    
+ color: #652d90;   
+    
+}
+
+.fast-link{
+
+    border-bottom: 1px solid #eee;
+}
+
+.fast-link h4{
+       
+ margin-top: 20px; 
+}
+
+
+.artice-title h4{
+    margin-top: 0;
+}
+
+
+
+/* side page section
+================================= */
+.artice-title ol {
+    padding-left: 15px;
+    margin-left: 0px;
+    
+}
+
+.artice-title ol li{
+font-size: 1.2em;
+    
+}
+
+
+.artice-title .btn-xs{
+
+    font-size: 0.9em;
+
+}
+
+
+
+
+
+.about-us{
+    
+ margin-top: 10px;
+border-bottom: 1px solid #eee; 
+padding-bottom:10px;    
+    
+}
+
+.artice-img{
+    
+ margin-top: 10px;   
+}
+
+.side-page-text{
+    margin-top: 10px;
+    border-bottom: 1px solid #eee; 
+    padding-bottom:10px;    
+}
+
+.side-page-text2{
+
+ margin-top: 10px;
+   
+    padding-bottom:10px;
+}
+
+.side-page-text p{
+ margin-top: 20px;   
+}
+
+.side-page-text ul{
+     margin-top: 15px;
+     padding-left: 25px;
+}
+
+.side-page-text ul li{
+     font-size: 1.2em;
+     margin-top: 10px;
+}
+
+
+.side-page-text2 p{
+ margin-top: 20px;   
+}
+
+.side-page-text2 ul{
+     margin-top: 15px;
+     padding-left: 25px;
+}
+
+.side-page-text2 ul li{
+     font-size: 1.2em;
+     margin-top: 10px;
+}
+
+.side-page-text img{
+display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.our-feature{
+  background:url("img/feature-bg.png") repeat-x; 
+  padding: 5px 35px;
+  margin-top: 40px;    
+}
+
+
+/* Address
+================================= */
+ address p a{
+	color:#87b132;	
+}
+address p a:hover{
+   color:#95c437;
+   
+}
+
+
+
+#map-outer {  height: 440px; 
+	  				padding: 20px; 
+					border: 2px solid #CCC; 
+					margin-bottom: 20px; 
+					background-color:#FFF }
+	  #map-container { height: 400px }
+
+
+/* footer
+================================= */
+  .footer-container{
+  width: 100%;
+  background:url("img/bottomlayer.png") repeat-x;   
+    
+}
+
+#footer-section{
+   width: 95%;
+   margin-left:8%;
+   padding-top:10px;
+}
+
+#footer-section h4{
+ font-weight: 500;    
+ color: #666;
+ font-size: 1.3em;    
+}
+
+
+#footer-section ul{
+ padding-left: 0;
+ list-style: none;
+}
+
+#footer-section ul li{
+  margin-top: 5px;
+}
+
+#footer-section ul li a{
+  font-weight: 500;
+  color: #666;
+}
+
+
+#copyright-section{
+    width: 98%;
+   margin-left:6%;
+    
+}
+
+/* Media query
+================================= */
+@media screen and (max-width: 1001px)
+{
+    .quote-Number{
+        font-size: 1.0em;
+        color: #97c638;
+        margin-top: 12px;
+    }
+    
+    .language-nav li{
+        float: left;
+        font-size: 0.9em;
+        margin-right: 0;
+        list-style: none;
+    }
+    
+    .navbar-default .navbar-nav li a{
+        color: #ddd; 
+        font-size: 0.9em;
+        font-weight: bold;
+         padding-left: 5px;
+        padding-right: 7px;
+    
+    }
+    
+    .artice-title h4{
+        margin-top: 10px;
+    }
+    
+    .navbar-default .navbar-nav li{
+        margin-left: 5px;
+    }
+
+
+    .navbar-default .navbar-nav .smallsize a{
+        font-size: 0.9em;
+    }
+
+    .triangle-auto h4{
+ 
+        font-size: 1.2em;
+    }
+    
+   .middle-logo{
+        margin-left: 4.15%;
+        width: 37.3333333%;   
+        
+    }
+    
+    #text-row{
+        width: 70%;
+        margin-left: 25%;
+        margin-top: 5px;    
+    }
+
+    #text-row span{
+        color: white;
+        font-size: 0.9em;
+    }
+    
+    #text-row p{
+        
+        margin-bottom: 2px;   
+    }
+    
+    #text-row {
+        margin-bottom: 2px;
+    }
+
+    #text-row h5{
+        margin-top: 5px;    
+        font-size:0.9em;
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 767px)
+{
+    #footer-section{
+        
+        margin-left:2%;
+    }
+    
+    .middle-logo{
+        
+        margin-left: 5%;
+        width: 70%;   
+    }
+
+}    
+
+
+
+
+@media only screen and (max-width: 650px)
+{
+    
+    
+    #footer-section{
+        margin-left:2%;
+
+    }
+    
+    #text-row h5{
+         font-size: 0.7em;
+    }
+    
+    #text-row span{
+         font-size: 0.7em;
+        
+    }
+    
+    .triangle-auto h4{
+        
+      font-size: .9em;   
+    }
+ 
+    .copyright-text h5{
+     font-size: 0.8em;
+    }
+    
+    .copyright-text p{
+    font-size: 0.6em;
+    }
+}    
+
+
+@media only screen and (max-width: 500px){
+    
+     #text-row h5{
+         font-size: 0.4em;
+    }
+    
+    #text-row span{
+         font-size: 0.4em;
+        
+    }
+    
+    #text-row{
+     margin-top: 0;   
+        
+    }
+    .phone-number h4{
+        
+     font-size: 1.1em;   
+    }
+    
+    
+    .triangle-auto h4{
+        
+      font-size: .6em; 
+      margin-top: 2px;
+    }
+    
+    .fast-link h4{
+        
+     font-size: 0.8em;   
+    }
+    
+    .about-us div{
+     background-color: #efefef;
+        
+     padding: 5px 8px;
+     margin-bottom: 5px;    
+    }
+    
+    .about-us div:nth-child(2){
+
+     background-color: #fff;   
+     padding: 5px 8px;
+     margin-bottom: 5px;    
+    }
+    
+    #triangle-content{
+        width: 100%;
+}
+    
+    
+    
+}
+
+@media only screen and (max-width: 350px){
+    
+     #text-row{
+         display: none;
+    }
+    
+    #copyright-section{
+        width: 98%;
+        margin-left:2%;
+    
+    }
+    
+  
+
+}

@@ -4,44 +4,44 @@
       <footer class="main-footer">
         <div class="row" id="footer-section">
           <div class="col-xs-6 col-sm-3">
-            <h4>保险报价</h4>
+            <h4>Insurance Quote</h4>
             <ul>
-             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">汽车保险</a></li> 
-             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">房屋保险</a></li>
-             <li><a href="https://shop.travelunderwriters.com/store/BTE546">旅游保险</a></li>
+             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">Auto Insurance</a></li> 
+             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">Home Insurance</a></li>
+             <li><a href="https://shop.travelunderwriters.com/store/BTE546">Travel Insurance</a></li>
             </ul>
             
           </div>
             
             <div class="col-sm-3 hidden-xs ">
-            <h4>关于百科迪</h4>
+            <h4>About Prime 40</h4>
             <ul>
-            <li><a href="index.html">关于我们</a></li> 
-             <li><a href="index.html">核心价值</a></li>
-             <li><a href="partner.html">我们的合作伙伴</a></li>
-             <li><a href="#">工作机会</a></li>
+            <li><a href="index.html">About Us</a></li> 
+             <li><a href="index.html">Core Value</a></li>
+             <li><a href="partner.html">Our Partner</a></li>
+             <li><a href="#">Career</a></li>
             </ul>
             </div>
             
             <div class="col-sm-3 hidden-xs ">
-            <h4>我们的保险范围</h4>
+            <h4>Our Service</h4>
             <ul>
-             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">车辆</a></li> 
-             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">住宅</a></li>
-             <li><a href="https://shop.travelunderwriters.com/store/BTE546">旅游</a></li>
-             <li><a href="quote.html">免费询价</a></li>
-             <li><a href="claim.html">事故帮助</a></li>
+             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=AUTO&LANG=EN">Auto</a></li> 
+             <li><a href="https://webrater.appliedsystems.com/WR/Default.aspx?GC=BTID&LOB=PROP&LANG=EN">Home</a></li>
+             <li><a href="https://shop.travelunderwriters.com/store/BTE546">Travel</a></li>
+             <li><a href="quote.html">Free Quote</a></li>
+             <li><a href="claim.html">Claim</a></li>
             
            </ul>
             </div>
             
             <div class="col-xs-6 col-sm-3">
-            <h4>网站快速导航</h4>
+            <h4>Quick Link</h4>
            <ul>        
-            <li><a href="#">网站地图</a></li> 
-             <li><a href="#">隐私条款</a></li>
-             <li><a href="#">安全性</a></li>
-             <li><a href="contact.html">联系我们</a></li>
+            <li><a href="#">Sitemap</a></li> 
+             <li><a href="#">Privacy Policy</a></li>
+             <li><a href="#">Security</a></li>
+             <li><a href="contact.html">Contact Us/a></li>
            </ul>
          </div>
       </div>
